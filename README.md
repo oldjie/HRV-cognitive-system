@@ -4,11 +4,11 @@
 
 An integrated system for heart rate variability (HRV) monitoring combined with cognitive tests (Stroop test and mental arithmetic stress test). Designed for psychophysiological research.
 
-> **Supported Devices**: Optimized for **KYTO HRV** straps and other standard BLE heart rate straps using the Heart Rate Profile (HRP).
+> **Supported Devices**: Optimized for **KYTO HRV** heart rate monitors and other standard BLE heart rate monitoring devices using the Heart Rate Profile (HRP).
 
 ## Features
 
-- **BLE Heart Rate Monitoring**: Connect to standard BLE heart rate straps via Bluetooth. **Compatible with KYTO HRV devices** and other HRP-compliant devices
+- **BLE Heart Rate Monitoring**: Connect to standard BLE heart rate monitoring devices via Bluetooth. **Compatible with KYTO HRV devices** and other HRP-compliant heart rate monitoring devices
 - **Real-time HRV Calculation**: Live RMSSD calculation from R-R intervals
 - **Multi-stage Experiment Support**: Press space to mark stage transitions during data collection
 - **Stress Arithmetic Test**: Mental calculation test with difficulty levels (primary/middle school)
@@ -38,12 +38,12 @@ An integrated system for heart rate variability (HRV) monitoring combined with c
 
 ## Supported BLE Devices
 
-This project is designed to work with **KYTO HRV** straps and other standard Bluetooth Low Energy (BLE) heart rate straps that implement the **Heart Rate Profile (HRP)**.
+This project is designed to work with **KYTO HRV** heart rate monitors and other standard Bluetooth Low Energy (BLE) heart rate monitoring devices that implement the **Heart Rate Profile (HRP)**.
 
 ### Compatible Devices
 
-- **KYTO HRV** series heart rate straps
-- Other HRP-compliant BLE heart rate devices
+- **KYTO HRV** series heart rate monitors
+- Other HRP-compliant BLE heart rate monitoring devices
 
 ### Device Requirements
 
@@ -57,7 +57,7 @@ This project is designed to work with **KYTO HRV** straps and other standard Blu
 python scan.py
 ```
 
-This will list all discoverable BLE devices. Look for your KYTO HRV device (or other HR heart rate strap) and note its MAC address (format: `XX:XX:XX:XX:XX:XX`).
+This will list all discoverable BLE devices. Look for your KYTO HRV device (or other heart rate monitoring device) and note its MAC address (format: `XX:XX:XX:XX:XX:XX`).
 
 ## Installation
 
@@ -103,7 +103,7 @@ scikit-learn>=1.0.0
 python scan.py
 ```
 
-This will discover all nearby BLE devices. Look for your KYTO HRV or other heart rate device.
+This will discover all nearby BLE devices. Look for your KYTO HRV or other heart rate monitoring device.
 
 ### 2. Run Integrated GUI Application
 
@@ -132,7 +132,7 @@ Press **Space** to mark stage transitions. Press **Ctrl+C** to exit.
 python realtime.py
 ```
 
-Opens a live plotting window showing heart rate and HRV in real-time from your KYTO HRV device.
+Opens a live plotting window showing heart rate and HRV in real-time from your KYTO HRV monitoring device.
 
 ### 5. Standalone Tests
 
