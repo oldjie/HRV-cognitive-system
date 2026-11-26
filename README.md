@@ -1,6 +1,8 @@
-# HRV Cognitive Testing System
+<h1 align="center">HRV Cognitive Testing System</h1>
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
+</p>
 
 An integrated system for heart rate variability (HRV) monitoring combined with cognitive tests (Stroop test and mental arithmetic stress test). Designed for psychophysiological research.
 
