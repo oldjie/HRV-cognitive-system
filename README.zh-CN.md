@@ -1,6 +1,8 @@
-# HRV 认知测试系统
+<h1 align="center">HRV 认知测试系统</h1>
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
+</p>
 
 心率变异性（HRV）监测与认知测试综合系统，适用于心理生理学研究。
 
